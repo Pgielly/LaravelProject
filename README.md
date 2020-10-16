@@ -1,7 +1,8 @@
 # Laravel Project 🗽 
 
 We need to make a web application that features statues.  
-In it we can add, delete or edit the ones already there.
+In it we can add, delete or edit the ones already there but also displayed them all at the same time.  
+
 
 ## Retrieve with Git/Github📚
 
