@@ -16,8 +16,8 @@
             <th> Pays d'origine </th>
             <th> Prix </th>
             <th> Créateur </th>
-            <th>Supprimer</th>
-            <th>Editer </th>
+            <th> Supprimer </th>
+            <th> Éditer </th>
         </tr>
     </thead>
     <tbody>
@@ -32,14 +32,14 @@
                     <form action="/delete" method="POST">
                         @csrf
                         <input type="hidden" name="id" value="{{ $statue->id }}">
-                        <input type="submit" value="Supprimer"> 
+                        <input type="submit" value="✖️"> 
                     </form>
                 </td>
                 <td>
                     <form action="/edit" method="POST">
                         @csrf
                     <input type="hidden" name="id" value="{{ $statue->id }}">
-                        <input type="submit" value="Editer">
+                        <input type="submit" value="✏️">
                     </form>
                 </td>
             </tr>

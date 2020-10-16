@@ -22,3 +22,9 @@ table th {
 table tr:hover{
     background-color: #dddddd9a;
 }
+
+input[type=submit]{
+    border:none;
+    padding: 5px;
+    background-color: gray;
+}
