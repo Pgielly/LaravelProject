@@ -1,0 +1,124 @@
+/* GENERAL SETTING */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mandali','sans-serif';
+}
+
+h1 {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+h2 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container{
+    max-width: 1060px;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/header.jpg);
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px;
+    color: white;
+}
+
+/* HEADER NAV */
+header nav{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding: 20px 20px 50px
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    padding: 7px 10px;
+}
+header nav ul li:hover{
+    background-color: rgba(117, 117, 117, 0.527);
+    padding: 7px 10px;
+    border-radius: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER DIV */
+header div{
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+header div p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* MAIN */
+.presentation {
+    display: flex;
+    margin-top: 50px;
+}
+.presentation img{
+    height: 200px;
+    margin-right: 50px;
+}
+
+.presentation div h2 {
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Footer  */
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color:rgb(20, 162, 250);
+    color: white;
+    padding: 30px;
+}
+
+/* BUTTON AND INPUT STYLE  */
+.input {
+    padding: 7px 13px;
+    border:none;
+    border-radius: 50px;
+    width: 350px;
+    outline: none;
+}
+.input:focus{
+    border: 1px solid rgb(20, 162, 250);
+    color:  rgb(20, 162, 250);
+}
+.btn{
+    position: absolute;
+    top: 1090px;
+    padding: 7px 13px;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: rgb(20, 162, 250);
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(20, 162, 250);
+}

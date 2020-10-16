@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/fond.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    align-items: center;
+}
+form div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+form div:first-of-type{
+    margin-top: 0px;
+
+}
